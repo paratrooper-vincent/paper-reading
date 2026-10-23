@@ -1,7 +1,9 @@
-# 系统文件
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# 避免误提交受版权保护的论文 PDF
-*.pdf
+﻿# 运行时缓存
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+node_modules/
