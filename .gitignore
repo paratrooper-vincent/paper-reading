@@ -1,4 +1,9 @@
-﻿# 运行时缓存
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行时缓存
 .cache/
 __pycache__/
 *.pyc
@@ -7,3 +12,6 @@ __pycache__/
 .env
 .venv/
 node_modules/
+
+# 避免误提交受版权保护的论文 PDF
+*.pdf
